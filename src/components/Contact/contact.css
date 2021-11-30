@@ -1,0 +1,29 @@
+.contact-form-area {
+    background-image: url('../../images/banner2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:#fff
+}
+.contact-form {
+    background: #000;
+    opacity: .7;
+    color: #fff;
+    padding: 25px;
+}
+
+.contact-form input,textarea {
+    width: 100%;
+    padding: 9px;
+    margin-bottom: 10px;
+    border: navajowhite;
+    border-radius: 4px;
+}
+.address {
+    background: #000;
+    color: #fff;
+    padding: 30px 20px;
+    opacity: .8;
+    margin-bottom: 10px;
+}
