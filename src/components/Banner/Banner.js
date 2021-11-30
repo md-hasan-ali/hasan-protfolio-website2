@@ -19,7 +19,7 @@ const Banner = () => {
                         <div className="banner-content">
                             <h1>Hi, I am <br /> HASAN ALI</h1>
                             <h2 className='pb-2'>I am a Web Developer</h2>
-                            <Button onClick={() => window.open('https://drive.google.com/file/d/1vcc4aRylWOMEh96ZbTx08nCKiGUMMxuc/view?usp=sharing', '_blank')} variant='success'>Download Resume</Button>
+                            <Button onClick={() => window.open('https://drive.google.com/file/d/1vcc4aRylWOMEh96ZbTx08nCKiGUMMxuc/view?usp=sharing', '_blank')} className='share-button1'>Download Resume <i class="fas fa-download"></i></Button>
                         </div>
                     </Col>
                 </Row>

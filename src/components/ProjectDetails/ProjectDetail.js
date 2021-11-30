@@ -30,8 +30,11 @@ const ProjectDetail = () => {
                     <div className="col-md-6">
                         <h2><strong>Project Name: </strong>{matchProduct?.name}</h2>
                         <p><strong>Description 1 </strong>{matchProduct?.description}</p>
-                        <p><strong>Description 2 </strong>{matchProduct?.description}</p>
-                        <p><strong>Description 3 </strong>{matchProduct?.description}</p>
+                        <p><strong>Description 2 </strong>{matchProduct?.desc2}</p>
+                        <p><strong>Description 3 </strong>{matchProduct?.desc3}</p>
+
+                        <p><strong>Used Technology: </strong>{matchProduct?.technology}</p>
+
                         <button onClick={() => window.open(matchProduct?.liveWebsite)} className='btn btn-primary ms-2'>Live Website</button>
                         <button onClick={() => window.open(matchProduct?.clientSide)} className='btn btn-success ms-2'>Client Side Code</button>
                         <button onClick={() => window.open(matchProduct?.serverSide)} className='btn btn-danger ms-2'>Server Side Code</button>

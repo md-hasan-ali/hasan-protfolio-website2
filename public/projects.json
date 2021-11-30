@@ -5,6 +5,9 @@
         "image2": "https://i.ibb.co/Msf1ycP/admin-dashboard.jpg",
         "image3": "https://i.ibb.co/6wJt28j/user-dashboard.jpg",
         "description": "Used the most popular javascript library React on this website. This is an OnLineCar Shop full functionality website, anyone can purchase a car that chose",
+        "desc2": "This website has included an admin dashboard and user dashboard. And also included Login, Registration, and Logout system.",
+        "desc3": "If an admin want can delete an order, update an order, add a new admin, add a new product on this website. A user will be able to see his own order.",
+        "technology": "React, React Router, Firebase, Bootstrap 5, Node, MongoDB, Heroku.",
         "name": "Online Car Shop",
         "liveWebsite": "https://react-fire-route.web.app/",
         "clientSide": "https://github.com/md-hasan-ali online-car-shop-website-client-side-code",
@@ -17,6 +20,9 @@
         "image3": "https://i.ibb.co/99kfsTf/my-Order-page.jpg",
         "description": "This is a Travelling website, anyone can travel there chosen a place in the world.A user can order to go to the place of his choice.",
         "name": "Traveling Website",
+        "desc2": "This Website has included Login System and Logout system. And a user will be able to see his own order",
+        "desc3": "If the user wants to be able to add the product, delete the product, order a product and see his own order.",
+        "technology": "React, React Router, Firebase, Bootstrap5, Node, MongoDB.",
         "liveWebsite": "https://react-firebase-authentic-61f82.web.app/",
         "clientSide": "https://github.com/md-hasan-ali/travel-website-client-side-code",
         "serverSide": "https://github.com/md-hasan-ali/travel-website-server-side-code"
@@ -28,6 +34,9 @@
         "image3": "https://i.ibb.co/6v7fTgS/contact-page.jpg",
         "description": "You can order a variety of diagnostic tests through this website. If the user does not log in then he will not see service details.",
         "name": "Alfa Diagonstic Center",
+        "desc2": "This website uses firebase authentication to allow users to log in and register. And this website is fully responsive.",
+        "desc3": "React routers have been used to create these websites so that the page does not reload when a user clicks on a link.",
+        "technology": "React, React Router, Firebase, Bootstrap5.",
         "liveWebsite": "https://react-firebase-authentic-45650.web.app/",
         "clientSide": "https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-md-hasan-ali"
     }
