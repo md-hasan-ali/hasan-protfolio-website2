@@ -43,7 +43,7 @@ div#tsparticles {
     transition: .5s;
     color:#fff;
 }
-button.share-button1:hover {
+.share-button1:hover {
     background: linear-gradient(to right,#272DFA, #FF5732);
 }
 @media only screen and (max-width:480px) {

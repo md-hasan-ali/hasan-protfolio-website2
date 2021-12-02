@@ -25,17 +25,17 @@ const Contact = () => {
                             </form>
                         </div>
                     </div>
-                    <div data-aos="fade-left" data-aos-duration="1500" className="col-md-6">
+                    <div className="col-md-6">
                         <div className="row">
-                            <div className="col-12 address">
+                            <div data-aos="fade-left" data-aos-duration="1000" className="col-12 address">
                                 <h2>Address</h2>
                                 <p>Baliadangi , Thakurgaon, Bangladesh</p>
                             </div>
-                            <div className="col-12 address">
+                            <div data-aos="fade-left" data-aos-duration="1500" className="col-12 address">
                                 <h2>Phone</h2>
                                 <p>01798946719</p>
                             </div>
-                            <div className="col-12 address">
+                            <div data-aos="fade-left" data-aos-duration="2000" className="col-12 address">
                                 <h2>Email</h2>
                                 <p>hasanaliringku@gmail.com</p>
                             </div>
