@@ -8,7 +8,7 @@ const Header = () => {
         <>
             <Navbar fixed="top" collapseOnSelect expand="lg" variant="dark" style={{ background: '#060604' }}>
                 <Container>
-                    <Navbar.Brand href="#home">HASAN</Navbar.Brand>
+                    <Navbar.Brand as={Link} to="/home">HASAN</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto">
