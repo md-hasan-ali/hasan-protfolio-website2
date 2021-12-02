@@ -1,4 +1,9 @@
 .hasan {
     clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
-
+}
+.about-image {
+    width: 90%;
+}
+.about-image img {
+    width:100%;
 }

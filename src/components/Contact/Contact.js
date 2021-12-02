@@ -6,11 +6,11 @@ const Contact = () => {
         <div className='contact-form-area py-5' id='contact'>
             <div className="container">
                 <div className="section-title text-center pb-5">
-                    <h2>Contact Me</h2>
+                    <h2><span style={{ color: '#FF5733' }}>Contact</span> Me</h2>
                 </div>
                 <div className="row">
                     <div className="col-md-6">
-                        <div className="contact-form">
+                        <div data-aos="fade-right" data-aos-duration="1500" className="contact-form">
                             <h2>LEAVE A MESSAGE</h2>
                             <form action='https://formspree.io/f/mzbopaar' method='POST'>
                                 <input type="text" name="name" placeholder='Your Name*' id='email' required />
@@ -21,11 +21,11 @@ const Contact = () => {
 
                                 <textarea placeholder='Message*' name="message" id="" cols="20" rows="5"></textarea>
 
-                                <input className='btn btn-success' type="submit" value="Send Message" />
+                                <input type="submit" value="Send Message" className='share-button1 mt-0' />
                             </form>
                         </div>
                     </div>
-                    <div className="col-md-6">
+                    <div data-aos="fade-left" data-aos-duration="1500" className="col-md-6">
                         <div className="row">
                             <div className="col-12 address">
                                 <h2>Address</h2>
