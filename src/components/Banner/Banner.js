@@ -86,11 +86,11 @@ const Banner = () => {
                             value: 1,
                         },
                         shape: {
-                            type: "circle",
+                            type: "star",
                         },
                         size: {
                             random: true,
-                            value: 4,
+                            value: 3.5,
                         },
                     },
                     detectRetina: true,
