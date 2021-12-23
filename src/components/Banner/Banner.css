@@ -55,11 +55,16 @@ div#tsparticles {
         margin-top:20px;
         margin-bottom: 10px;
     }
-    .banner-contant h2 {
-        font-size: 35px;
-        margin-bottom: 15px;
+    .banner-content h2 {
+        font-size: 42px;
     }
     .banner-image img {
         width:100%
+    }
+    .banner-image {
+        margin: 22px auto;
+    }
+    .banner-content {
+        text-align: center;
     }
 }

@@ -8,7 +8,7 @@
         "desc2": "This website has included an admin dashboard and user dashboard. And also included Login, Registration, and Logout system.",
         "desc3": "If an admin want can delete an order, update an order, add a new admin, add a new product on this website. A user will be able to see his own order.",
         "technology": "React, React Router, Firebase, Bootstrap 5, Node, MongoDB, Heroku.",
-        "name": "Online Car Shop",
+        "name": "Online Car Shop (MERN-STACK)",
         "liveWebsite": "https://react-fire-route.web.app/",
         "clientSide": "https://github.com/md-hasan-ali online-car-shop-website-client-side-code",
         "serverSide": "https://github.com/md-hasan-ali/online-car-shop-website-server-side-code"
@@ -19,7 +19,7 @@
         "image2": "https://i.ibb.co/PmBXLMB/manage-order.jpg",
         "image3": "https://i.ibb.co/99kfsTf/my-Order-page.jpg",
         "description": "This is a Travelling website, anyone can travel there chosen a place in the world.A user can order to go to the place of his choice.",
-        "name": "Traveling Website",
+        "name": "Traveling Website(MERN-STACK)",
         "desc2": "This Website has included Login System and Logout system. And a user will be able to see his own order",
         "desc3": "If the user wants to be able to add the product, delete the product, order a product and see his own order.",
         "technology": "React, React Router, Firebase, Bootstrap5, Node, MongoDB.",
@@ -29,6 +29,20 @@
     },
     {
         "id": "3",
+        "image1": "https://i.ibb.co/KLVn4TR/electronics1.jpg",
+        "image2": "https://i.ibb.co/XZtbNh9/electronics2.jpg",
+        "image3": "https://i.ibb.co/yXkjLHM/eletronics3.jpg",
+        "description": "Used the most popular javascript library React on this website. This is an OnLineCar Shop full functionality website, anyone can purchase a car that chose",
+        "name": "Electronics Store(MERN-STACK)",
+        "desc2": "This website uses firebase authentication to allow users to log in and register. And this website is fully responsive.",
+        "desc3": "React routers have been used to create these websites so that the page does not reload when a user clicks on a link.",
+        "technology": "React, React Router, Firebase, Bootstrap 5, Node, MongoDB, Heroku.",
+        "liveWebsite": "https://electronics-store-web.netlify.app/",
+        "clientSide": "https://github.com/md-hasan-ali/electronics-store-client",
+        "serverSide": "https://github.com/md-hasan-ali/electronics-store-server"
+    },
+    {
+        "id": "4",
         "image1": "https://i.ibb.co/2Fkdxmh/project3.jpg",
         "image2": "https://i.ibb.co/cXk9gcw/login-registration.jpg",
         "image3": "https://i.ibb.co/6v7fTgS/contact-page.jpg",
@@ -39,5 +53,31 @@
         "technology": "React, React Router, Firebase, Bootstrap5.",
         "liveWebsite": "https://react-firebase-authentic-45650.web.app/",
         "clientSide": "https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-md-hasan-ali"
+    },
+    {
+        "id": "5",
+        "image1": "https://i.ibb.co/0M5931b/paul-lapkin1.jpg",
+        "image2": "https://i.ibb.co/202rHYN/paul-lapkin2.jpg",
+        "image3": "https://i.ibb.co/ccT5nBs/paul-lapkin3.jpg",
+        "description": "This is a PSD template. It is designed using html5, css3, bootstrap. And the JQuery plugin has been used to make it interactive. Some more external libraries have been used.",
+        "name": "PAUL-LAPKIN",
+        "desc2": "",
+        "desc3": "",
+        "technology": "HTML5, CSS3, Bootstrap4, Jquery Plugin, Owl-Carousel",
+        "liveWebsite": "https://sharp-engelbart-ae7491.netlify.app/",
+        "clientSide": "https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-md-hasan-ali"
+    },
+    {
+        "id": "6",
+        "image1": "https://i.ibb.co/bX5YSYL/Screenshot-1.jpg",
+        "image2": "https://i.ibb.co/z55SXBt/Screenshot-2.jpg",
+        "image3": "https://i.ibb.co/TgZbkvC/Screenshot-3.jpg",
+        "description": "This is a PSD template. It is designed using html5, css3, bootstrap. And the JQuery plugin has been used to make it interactive. Some more external libraries have been used.",
+        "name": "Tajam (Psd To Html)",
+        "desc2": "",
+        "desc3": "",
+        "technology": "HTML5, CSS3, Jquery plugin, Bootstrap, Owl-Carousel",
+        "liveWebsite": "https://md-hasan-ali.github.io/paractice17/",
+        "clientSide": "https://github.com/md-hasan-ali/paractice17"
     }
 ]

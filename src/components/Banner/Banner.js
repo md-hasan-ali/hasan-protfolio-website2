@@ -23,7 +23,7 @@ const Banner = () => {
                             <h2 className='pb-2'>I am a React Developer<span className="text"></span> </h2>
                             <div data-aos="fade-up"
                                 data-aos-duration="2000">
-                                <Button onClick={() => window.open('https://drive.google.com/file/d/1vcc4aRylWOMEh96ZbTx08nCKiGUMMxuc/view?usp=sharing', '_blank')} className='share-button1'>Download Resume <i class="fas fa-download"></i></Button>
+                                <Button onClick={() => window.open('https://drive.google.com/file/d/1uhSZUUX9bUfyPhd_6bJwsnXeAU-bvfoW/view?usp=sharing', '_blank')} className='share-button1'>Download Resume <i class="fas fa-download"></i></Button>
                             </div>
                         </div>
 
