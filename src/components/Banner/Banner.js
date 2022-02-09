@@ -9,8 +9,6 @@ import './Banner.css'
 const Banner = () => {
     const particlesInit = (main) => {
         console.log(main);
-
-        // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
     };
 
     const particlesLoaded = (container) => {
@@ -90,7 +88,7 @@ const Banner = () => {
                         },
                         size: {
                             random: true,
-                            value: 3.5,
+                            value: 2.5,
                         },
                     },
                     detectRetina: true,
@@ -111,18 +109,18 @@ const Banner = () => {
                             <h2 className='pb-2'>I Am A  <span style={{ color: '#FF5733', fontWeight: 'bold' }}>
                                 {/* Style will be inherited from the parent element */}
                                 <Typewriter
-                                    words={['React Developer', 'Frontend Developer', 'Web-Designer', 'MERN-STACK Developer']}
+                                    words={['React Developer', 'Frontend Developer', 'Web-Designer', 'MERN-Stack Developer']}
                                     loop={20}
                                     cursor
                                     cursorStyle='_'
-                                    typeSpeed={70}
-                                    deleteSpeed={100}
+                                    typeSpeed={60}
+                                    deleteSpeed={50}
                                     delaySpeed={1000}
                                 />
                             </span></h2>
                             <div data-aos="fade-up"
                                 data-aos-duration="2000">
-                                <Button onClick={() => window.open('https://drive.google.com/file/d/1uhSZUUX9bUfyPhd_6bJwsnXeAU-bvfoW/view?usp=sharing', '_blank')} className='share-button1'>Download Resume <i class="fas fa-download"></i></Button>
+                                <Button onClick={() => window.open('https://drive.google.com/file/d/18CdGIvDKViYnEHugA0EBuX7Gr2C80DmE/view?usp=sharing', '_blank')} className='share-button1'>Download Resume <i class="fas fa-download"></i></Button>
                             </div>
                         </div>
 

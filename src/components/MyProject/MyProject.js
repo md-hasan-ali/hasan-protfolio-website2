@@ -9,14 +9,14 @@ const MyProject = () => {
         fetch('./projects.json')
             .then(res => res.json())
             .then(data => setProjects(data))
-    }, [])
-    console.log(projects)
+    }, []);
+
     return (
         <div className='my-projects py-5' id='projects'>
             <div className="container">
                 <div data-aos="fade-down"
                     data-aos-easing="linear"
-                    data-aos-duration="1000" className="section-title pb-4 text-center">
+                    data-aos-duration="1000" className="section-title pb-5 text-center text-white">
                     <h2>My <span style={{ color: '#FF5733' }}>Lattest</span> Works</h2>
                     <p>Hi, i'm Hasan Ali, Experience crafter from Bangladesh.</p>
                 </div>
@@ -24,8 +24,8 @@ const MyProject = () => {
                     {
                         projects.map(project =>
                             <Col key={project.id}>
-                                <Card data-aos="fade-up"
-                                    data-aos-duration="1000" className='single-project'>
+                                <Card data-aos="flip-left"
+                                    data-aos-duration="1500" className='single-project'>
                                     <Card.Img variant="top" src={project?.image1} />
                                     <Card.Body>
                                         <Card.Title>{project.name}</Card.Title>

@@ -1,3 +1,14 @@
+.my-projects {
+    background-image: url('../../images/banner3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .single-project.card {
     height: 400px;
+    color: #000;
+    border: none;
+    position: relative;
+    background-color:#faebd7;
 }

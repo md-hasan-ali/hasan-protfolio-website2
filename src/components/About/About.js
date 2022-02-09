@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css'
-import aboutImg from '../../images/hasan-img2.png'
+import aboutImg from '../../images/about.bg.jpg'
 import { Button } from 'react-bootstrap';
 
 const About = () => {

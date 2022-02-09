@@ -1,10 +1,37 @@
-a.navbar-brand {
-    font-size: 30px;
-    font-weight: 700;
+.header-area {
+    background-image: url('../../images/banner3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#fff;
+    padding:10px 0;
 }
-
-.navbar-dark .navbar-nav .nav-link {
-    color: #fff;
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+.menu ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.menu ul li a {
+    text-decoration: none;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
+    color:#fff;
+    text-transform: uppercase;
+}
+.menu ul li a:hover {
+    color: #FF5733;
+}
+.menu ul li:first-child {
+    margin-left: 0;
+}
+.logo h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
 }
