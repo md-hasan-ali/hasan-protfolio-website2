@@ -18,7 +18,7 @@
         "image1": "https://i.ibb.co/Jx1yQZt/furniture1.jpg",
         "image2": "https://i.ibb.co/cJG4Z0c/furniture2.jpg",
         "image3": "https://i.ibb.co/qxzDc6C/Screenshot-1.jpg",
-        "description": "This website has been created using MERN stack technology. Here any user can buy the furniture of his choice.",
+        "description": "This website has been created using MERN stack technology. Here any user can buy the furniture of his choice And a Fully functional website.",
         "name": "Furniture-Store(MERN-STACK)",
         "desc2": "This website uses firebase authentication to allow users to log in and register. And this website is fully responsive.",
         "desc3": "If a user wants to buy a product, he must be Registration. This website has two private routes: Dashboard, AddToCart button.",
