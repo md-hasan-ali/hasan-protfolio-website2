@@ -6,6 +6,18 @@
     background-repeat: no-repeat;
     color:#fff;
     padding:10px 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top:0;
+    width: 100%;
+    z-index: 9;
+    transition: .5s;
+}
+.header-area.sticky {
+    z-index: 9999;
+    transition: .5s;
+    padding: 2px 0;
 }
 .menu ul {
     margin: 0;
