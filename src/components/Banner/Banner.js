@@ -120,7 +120,7 @@ const Banner = () => {
                             </span></h2>
                             <div data-aos="fade-up"
                                 data-aos-duration="2000">
-                                <Button onClick={() => window.open('https://drive.google.com/file/d/18CdGIvDKViYnEHugA0EBuX7Gr2C80DmE/view?usp=sharing', '_blank')} className='share-button1'>Download Resume <i class="fas fa-download"></i></Button>
+                                <Button onClick={() => window.open('https://drive.google.com/file/d/1kTshvinj6fw82V6A0IGXJGrEFpYj-VdO/view?usp=sharing', '_blank')} className='share-button1'>Download Resume <i class="fas fa-download"></i></Button>
                             </div>
                         </div>
 
