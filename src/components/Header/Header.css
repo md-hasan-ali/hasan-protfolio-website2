@@ -1,51 +1,59 @@
 .header-area {
-    background-image: url('../../images/banner3.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    color:#fff;
-    padding:10px 0;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top:0;
-    width: 100%;
-    z-index: 9;
-    transition: .5s;
+	background-image: url('../../images/banner3.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #fff;
+	padding: 10px 0;
+	position: fixed;
+	left: 0;
+	right: 0;
+	margin-bottom: 200px;
+	top: 0;
+	width: 100%;
+	z-index: 9;
+	transition: .5s;
 }
+
 .header-area.sticky {
-    z-index: 9999;
-    transition: .5s;
-    padding: 2px 0;
+	z-index: 9999;
+	transition: .5s;
+	padding: 2px 0;
 }
+
 .menu ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-align: right;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: right;
 }
+
 .menu ul li {
-    display: inline-block;
-    margin-left: 20px;
+	display: inline-block;
+	margin-left: 20px;
 }
+
 .menu ul li a {
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 600;
-    color:#fff;
-    text-transform: uppercase;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
 }
+
 .menu ul li a:hover {
-    color: #FF5733;
+	color: #FF5733;
 }
+
 .menu ul li:first-child {
-    margin-left: 0;
+	margin-left: 0;
 }
+
 .logo h2 {
-    font-size: 40px;
-    text-transform: uppercase;
-    font-weight: 700;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: 700;
 }
 
 
@@ -76,13 +84,16 @@
 	transition: .3s;
 	font-weight: 600;
 }
+
 .menu-container ul li:hover a {
 	font-size: 30px;
 	color: tomato;
 }
+
 .menu-container ul li {
 	margin-bottom: 6px;
 }
+
 .close-button i {
 	color: #fff;
 	font-size: 40px;
@@ -92,6 +103,7 @@
 	cursor: pointer;
 	z-index: 9999;
 }
+
 .mobile-menu i {
 	position: absolute;
 	font-size: 33px;

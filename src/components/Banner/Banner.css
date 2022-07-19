@@ -1,69 +1,91 @@
 .banner-area {
-    background-image:url('../../images/banner3.jpg');
+    background-image: url('../../images/banner3.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    color:#fff;
-    padding:150px 0;
+    color: #fff;
+    padding-top: 300px;
     height: 100vh;
 }
+
+/* .banner-area::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+} */
+
 .banner-image {
-    width: 85%;
+    width: 70%;
     border: 15px solid #fff;
-    border-image: linear-gradient(#FF5733, #272DFA,#fff) 100;
+    border-image: linear-gradient(#FF5733, #272DFA, #fff) 100;
 }
+
 .banner-image img {
-    width:100%;
+    width: 100%;
 }
+
 .banner-content h1 {
     font-size: 50px;
     font-weight: 700;
     text-transform: uppercase;
 }
+
 .banner-content h2 {
     font-size: 40px;
 }
+
 div#tsparticles {
-    position:absolute;
-    top:0;
+    position: absolute;
+    top: 0;
     left: 0;
     width: 100%;
 }
+
 .banner-content {
     z-index: 9;
     position: relative;
 }
+
 .share-button1 {
     font-size: 22px;
     margin-top: 12px;
-    background: linear-gradient(to right, #FF5733,#272DFA);
-    border:none;
+    background: linear-gradient(to right, #FF5733, #272DFA);
+    border: none;
     transition: .5s;
-    color:#fff;
+    color: #fff;
 }
+
 .share-button1:hover {
-    background: linear-gradient(to right,#272DFA, #FF5732);
+    background: linear-gradient(to right, #272DFA, #FF5732);
 }
+
 @media only screen and (max-width:480px) {
     .banner-content {
         padding-bottom: 20px;
     }
+
     .banner-content h1 {
         font-size: 50px;
-        margin-top:20px;
+        margin-top: 20px;
         margin-bottom: 10px;
     }
+
     .banner-content h2 {
         font-size: 35px;
     }
+
     .banner-image img {
-        width:100%
+        width: 100%
     }
+
     .banner-image {
         margin: 22px auto;
     }
+
     .banner-content {
         text-align: center;
     }
